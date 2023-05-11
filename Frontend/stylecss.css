@@ -278,10 +278,10 @@ tbody {
     font-family: Oswald, sans-serif;
     font-weight: 500;
     color: #fff;
+    background-color: #2E3241;
 }
 
 td {
-    /* background-color: #2E3241; */
     padding: 0.8rem;
 }
 
