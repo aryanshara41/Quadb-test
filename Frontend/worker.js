@@ -9,6 +9,10 @@ fetchData();
 
 const circularProgress = document.querySelectorAll(".circular-progress");
 
+setInterval( ()=>{
+    window.location.reload();
+}, 60000)
+
 Array.from(circularProgress).forEach((progressBar) => {
     const progressValue = progressBar.querySelector(".percentage");
     const innerCircle = progressBar.querySelector(".inner-circle");
